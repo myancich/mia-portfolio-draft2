@@ -34,6 +34,7 @@
 	</header>
 	
 	<main>
+
 		<img src = "images/people_cheering.png" alt = "Group of Students in Green Shirts"/>
 		<img src = "images/planter box.jpeg" alt = "Planter Box"/>
 		<img src = "images/cutie sustainability.jpeg" alt = "Group of People Celebrating Sustainability"/>
@@ -52,6 +53,39 @@
 		<h2>5. Make Conscious Consumer Choices</h2>
 		<h2>6. Get Involved in Programs on Campus </h2>
 		<h2>7. Shop Locally</h2>
+
+			
+		<form action="https://formspree.io/f/xayvbbpr"method="POST">
+			<h1> Get Involved in Caring for the Environment </h1>
+				<label>
+				  Your email: <input type="email" name="email">
+			  </label>
+				 <label>
+				  Your message: <textarea name="message"></textarea>
+			  </label>
+			<section>
+				<label What year are you in?> </label>
+				<select name="year" id="year">
+					<option value="Freshman">Freshman</option>
+					<option value="Sophomore">Sophomore</option>
+					<option value="Junior">Junior</option>
+					<option value="Senior">Senior</option>
+				</select>
+			</section>
+			<section class = "activities">
+				<span>What do you currently do to be sustainable? </span>
+  				<br>
+  				<input type="radio" name="activities" id="Compost" value="Compost">
+  				<label for="Compost">Compost!</label>
+  				<input type="radio" name="activities" id="Walk/Bike" value="Walk/Bike">
+ 				 <label for="Walk/Bike">Walk or Bike to Campus</label>
+				<input type="radio" name="activities" id="shoplocal" value="shoplocal">
+  				<label for="shoplocal">Shop Locally!</label>
+				  <input type="radio" name="activities" id="none" value="none">
+  				<label for="none">Nothing Yet</label>
+			</section>
+			<button type="submit">Send</button>
+	  	</form>
 
 		<img src = "images/hands_compost.jpeg" alt = "hands holding compost" />
 		<img src = "images/no_to_plastic.jpeg" alt = "say no to plastic poster" />
